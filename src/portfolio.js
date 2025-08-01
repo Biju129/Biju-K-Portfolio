@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Github, Linkedin, Mail, ExternalLink, Code, Palette, Zap, Users, Award, MapPin } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Code, Palette, Zap, Users, Award, MapPin } from 'lucide-react';
 
 const Portfolio = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
