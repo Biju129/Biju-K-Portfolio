@@ -159,7 +159,8 @@ const Portfolio = () => {
                      
           </div>
           
-          <ChevronDown size={32} className="mx-auto animate-bounce text-purple-400" />
+          {//<ChevronDown size={32} className="mx-auto animate-bounce text-purple-400" />
+          }
         </div>
       </section>
 
@@ -206,9 +207,9 @@ const Portfolio = () => {
                     <div className="text-xl font-semibold">Located In</div>
                     <div className="text-gray-300">Tamilnadu, India</div>
                     <div className="mt-6 flex justify-center space-x-4">
-                      <Github className="hover:text-purple-400 cursor-pointer transition-colors" size={24} />
-                      <Linkedin className="hover:text-purple-400 cursor-pointer transition-colors" size={24} />
-                      <Mail className="hover:text-purple-400 cursor-pointer transition-colors" size={24} />
+                      <a href='https://github.com/Biju129'><Github className="hover:text-purple-400 cursor-pointer transition-colors" size={24} /></a>
+                      <a href='https://www.linkedin.com/in/biju-k-b40b41375/'><Linkedin className="hover:text-purple-400 cursor-pointer transition-colors" size={24} /></a>
+                      <a href="mailto:bijuvinayak129@gmail.com"><Mail className="hover:text-purple-400 cursor-pointer transition-colors" size={24} /> </a>
                     </div>
                   </div>
                 </div>
@@ -365,10 +366,11 @@ const Portfolio = () => {
                 href="https://join.slack.com/t/letsconnect-q2z7865/shared_invite/zt-3a6hk9o12-DiWj4kHxWf9RhxZgpINV2Q"  // or channel URL
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
+              >
               <button className="bg-gradient-to-r from-purple-500 to-pink-500 px-12 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/25">
                 Start a Conversation
               </button>
+              </a>
             </div>
           </div>
         </div>
