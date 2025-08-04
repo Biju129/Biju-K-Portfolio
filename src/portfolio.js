@@ -174,7 +174,7 @@ const Portfolio = () => {
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-3xl font-semibold mb-6">Passionate Developer & Problem Solver</h3>
+                <h3 className="text-3xl font-semibold mb-6">I'm a Technograd,</h3>
                 <p className="text-gray-300 text-lg mb-6 leading-relaxed">
                   With a strong foundation in Core Java, SQL, and a growing interest in data science and networking, I am an enthusiastic and fast-learning fresher eager to contribute to impactful projects.
                   My curiosity about how systems interact and data flows has driven me to explore backend logic, database management, and emerging technologies.
